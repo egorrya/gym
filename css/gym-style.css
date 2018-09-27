@@ -1,0 +1,185 @@
+
+/* -------------------------------- 
+
+Start Gym home  style
+
+-------------------------------- */
+
+/*menu*/
+.navbar.navbar-gym{
+	background: none;
+} 
+.navbar.navbar-gym{
+  background: none;
+}
+.navbar.navbar-gym .nav-item a.active{
+  background: none;
+}
+.navbar.navbar-gym .nav-link.active {
+   padding-left: .5rem;
+   padding-right: .5rem;
+}
+.navbar.navbar-gym .nav-item a{
+  color: #ffffff;
+}
+.navbar-gym.active_sc{
+  background: #181a1d !important;
+}
+
+/*banner*/
+.hero-header.hero-gym .banner-op{
+  background-image: url(../img/gym/banner.jpg);
+  padding-top: 55px;
+}
+.hero-header.hero-gym{
+  margin-top: 0;
+}
+
+.hero-gym .banner-op::after{
+	opacity: 0.5;
+}
+.hero-gym .banner_text .btn{
+  background-color: #ee6059;
+  border-color: #ee6059;
+}
+.hero-gym .banner_text .btn:hover{
+  color: #ee6059;
+}
+
+/*about*/
+.about-sec.about-gym,
+.services.services-gym,
+.our-portfolio.portfolio-gym,
+.pricing.pricing-gym,
+.testimonial-slide.testimonial-gym,
+.blogs.blogs-gym,
+.contactus.contactus-gym{
+	background-color: #181a1d;
+}
+.about-gym .about-left-image::after{
+	background-color: #ee6059;
+}
+.about-gym .about-left-image img{
+	border-color: #c14b45;
+}
+.about-gym .about-us-title .btn{
+  background-color: #ee6059;
+  border-color: #ee6059;
+}
+.about-gym .about-us-title .btn:hover{
+  color: #ee6059;
+}
+
+.title.title-gym h6{
+	color: #ee6059;
+}
+.title.title-gym h3,
+.about-us-title.title-gym p,
+.services-gym .single-service-inside h4,
+.services-gym .single-service-inside p{
+	color: #ffffff;
+}
+
+.video-showcase.showcase-gym {
+  background-image: url(../img/gym/video-bg.jpg);
+}
+.video-showcase.showcase-gym .video-btn{
+  background-color: #ee6059;
+}
+
+.video-showcase.showcase-gym .video-btn i{
+  background-color: #c14b45;
+}
+
+.services-gym .single-service-inside:hover{
+ background-color: #ee6059;
+}
+
+.our-portfolio.portfolio-gym .button-group button.is-checked{
+  color: #ee6059;
+}
+.our-portfolio.portfolio-gym .item-inner:hover .overlay::before {
+ background-color: #ee6059;
+}
+.our-portfolio.portfolio-gym .button-group button{
+	color: #ffffff;
+}
+
+.our-team.team-gym{
+	background-color: #2d2d2d;
+}
+.our-team.team-gym .team-inside .team-name{
+	background-color: #ee6059;
+}
+
+.fun_fact.fun_fact_gym{
+	background-image: url(../img/gym/fun-bg.jpg);
+}
+
+.pricing.pricing-gym .nav-tabs .nav-link{
+	color:#ffffff;
+}
+.pricing.pricing-gym .nav-tabs .nav-item.show .nav-link, 
+.pricing.pricing-gym .nav-tabs .nav-link.active{
+	background: none;
+	color: #ee6059;
+}
+.pricing-gym .price_inside:hover .price-body .btn{
+  
+  border-color: #ee6059;
+}
+.pricing-gym .price_inside.active .price-body .btn{
+ border-color: #ee6059;
+}
+.pricing-gym .price_inside .price-body .btn::after{
+  background-color: #ee6059;
+}
+
+.testimonial-slide.testimonial-gym .single-slide {
+    padding: 40px 22px;
+    background: #fff;
+}
+.testimonial-slide.testimonial-gym .owl-carousel .owl-item .media-body::after{
+	z-index: 9;
+}
+.testimonial-slide.testimonial-gym .owl-carousel button.owl-dot{
+	background-color: #ee6059;
+}
+
+.blogs-gym .blog_inside:hover .card-body h4{
+  color: #ee6059;
+}
+.blogs-gym .blog_inside:hover .btn{
+  border-color: #ee6059;
+}
+.blogs-gym .blog_inside .card-body .btn::after{
+  background-color: #ee6059;
+}
+.blogs-gym .blog_inside .card-body{
+	background-color: #2d2d2d;
+}
+.blogs-gym .blog_inside .card h4,
+.blogs-gym .blog_inside .card p{
+	color: #ffffff;
+}
+
+.contactus-gym .contact-form-inside::after{
+	background-image: url(../img/gym/contact-bg.jpg);
+}
+.newsletter-gym .newsletter-inside .news-form .btn{
+  background-color: #ee6059;
+}
+
+@media only screen and (max-width : 767px) {
+  .hero-header.hero-gym .banner-op{
+    padding-top: 140px;
+  }
+}
+
+
+
+/* -------------------------------- 
+
+Close Gym home  style
+
+-------------------------------- */
